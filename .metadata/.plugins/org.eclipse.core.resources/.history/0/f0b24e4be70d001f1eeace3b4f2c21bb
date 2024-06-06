@@ -1,0 +1,38 @@
+package lezioni;
+
+public class User {
+	
+	String name;
+	int age;
+	int height;
+	
+	public User(String name, int age, int height) {
+		this.age = age;
+		this.height = height;
+		this.name = name;
+	}
+	
+	/*
+	public User(short age, String name, int height) {
+		this.age = age;
+		this.height = height;
+		this.name = name;
+	}
+	public User(int height, short age, String name) {
+		this.age = age;
+		this.height = height;
+		this.name = name;
+	}
+	public User(String name, int height, short age) {
+		this.age = age;
+		this.height = height;
+		this.name = name;
+	}
+	*/
+	
+	public static void main(String[] args) {
+        User uno = new User("A", 3, 5);
+        //User u2 = new User(2, 3, "a");
+        //User u3 = new User(3, 2, "a");
+    }
+}

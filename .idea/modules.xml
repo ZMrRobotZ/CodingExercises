@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GitHubSync/GitHubSync.iml" filepath="$PROJECT_DIR$/GitHubSync/GitHubSync.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codegym/codegym.iml" filepath="$PROJECT_DIR$/codegym/codegym.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lezioni/lezioni.iml" filepath="$PROJECT_DIR$/lezioni/lezioni.iml" />
+    </modules>
+  </component>
+</project>

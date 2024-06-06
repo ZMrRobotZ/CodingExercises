@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/mrrobot/OneDrive/TUTORIAL JAVA/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1528666194.index
+680281284.index

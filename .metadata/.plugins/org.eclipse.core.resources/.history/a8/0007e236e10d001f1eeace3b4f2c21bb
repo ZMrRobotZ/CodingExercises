@@ -1,0 +1,31 @@
+package lezioni;
+
+public class Cat {
+	int age;
+	
+	String name;
+	String nomignolo;
+	
+	static int count;
+	
+	public void miagola() {
+		System.out.println("MIAO!");
+	}
+	
+	public void salta() {
+		System.out.println("Jumping");
+	}
+	
+	public static void main(String[] args) {
+		
+		Cat kajal = new Cat();
+		kajal.name = "Kajal";
+		kajal.age = 10;
+		kajal.nomignolo = "Kaj";
+		
+		kajal.salta();
+		kajal.miagola();
+
+	}
+
+}

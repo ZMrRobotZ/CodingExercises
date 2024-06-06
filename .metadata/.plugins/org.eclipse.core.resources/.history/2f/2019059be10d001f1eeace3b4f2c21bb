@@ -1,0 +1,18 @@
+package lezioni;
+
+public class Cat {
+
+    String name;
+    int age;
+
+    // Constructor for the Cat class
+    public Cat(String purr, int arg) {
+        this.name = purr;
+        this.age = arg;
+    }
+
+    public static void main(String[] args) {
+
+        Cat smudge = new Cat("Smudge", 5);
+    }
+}

@@ -1,0 +1,23 @@
+package lezioni;
+
+public class User {
+	
+	String name;
+	short age;
+	int height;
+	
+	public User(String name, short age, int height) {
+	}
+	public User(short age, String name, int height) {
+	}
+	public User(int height, short age, String name) {
+	}
+	public User(String name, int height, short age) {
+	}
+	
+	public static void main(String[] args) {
+        User u1 = new User("a", 2, 3);
+        User u2 = new User(2, 3, "a");
+        User u3 = new User(3, 2, "a");
+    }
+}

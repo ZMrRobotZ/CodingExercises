@@ -1,0 +1,22 @@
+package lezioni;
+
+public class Cat {
+
+    String name;
+    int age;
+
+    public Cat(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public static void main(String[] args) {
+
+        Cat smudge = new Cat("Smudge", 5);
+        Cat kajal = new Cat("Kajal", 10);
+        System.out.println(smudge.name);
+        System.out.println(smudge.age);
+        System.out.println(kajal.name);
+        System.out.println(kajal.age);
+    }
+}
